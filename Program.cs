@@ -4,18 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace @while
+namespace dowhile
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             int i = 0;
-            while (i < 5)
+            do
             {
                 Console.WriteLine(i);
                 i++;
             }
+            while (i < 8);
         }
     }
 }
